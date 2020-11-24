@@ -6,7 +6,7 @@
 
   <groupId>com.mycompany.app</groupId>
   <artifactId>my-app</artifactId>
-  <version>1.4</version>
+  <version>0.0.1</version>
 
   <name>my-app</name>
   <!-- FIXME change it to the project's website -->
@@ -17,7 +17,7 @@
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
 
-		<github.global.server>github</github.global.server>
+		<github.global.server>syscom-github</github.global.server>
 	</properties>
 
   <dependencies>
@@ -59,10 +59,10 @@
 					<message>Maven artifacts for ${project.version}</message> 
 					<noJekyll>true</noJekyll>  
 					<outputDirectory>${project.build.directory}/mvn-repo</outputDirectory>
-					<branch>refs/heads/mvn-repo</branch>
+					<branch>refs/heads/main</branch>
 					<includes><include>**/*</include></includes>
-					<repositoryName>mvn-repo</repositoryName> 
-					<repositoryOwner>kktry-57</repositoryOwner>
+					<repositoryName>cec-apigee-common-package</repositoryName> 
+					<repositoryOwner>SYSCOM-TW</repositoryOwner>
 				</configuration>
 				<executions> 
 				<execution>
